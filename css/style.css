@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url('../images/top-banner.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px
+}
+
+.tagline h1 {
+    padding-bottom: 10px;
+    font-weight: 700 !important;
+}
+
+.tagline span {
+    color: #FFA500;
+}
+
+.tagline h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.tagline p {
+    color: dimgray;
+    padding-top: 10px;
+}
+
+.header-image {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline a {
+    padding: 10px 40px;
+    background: linear-gradient( 45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.tagline a:hover {
+    color: white;
+}
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+
+.dream-big{
+    margin-top: 100px;
+    background-image: url('../images/dream-bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.dream-big  h1 {
+    padding-bottom: 10px;
+    font-weight: 700 !important;
+}
+
+.dream-big  span {
+    color: #FFA500;
+}
+
+.dream-big  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.dream-big  p {
+    color: dimgray;
+    padding-top: 10px;
+}
+
+.dream-big .dream-big-image {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+.dream-big .dream-big-image  img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.dream-big  .tagline a {
+    padding: 10px 40px;
+    background: linear-gradient( 45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.dream-big  .tagline a:hover {
+    color: white;
+}
+
+
+
+
+
