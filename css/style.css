@@ -59,35 +59,31 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
 
-
-
-
-.dream-big{
+.dream-big {
     margin-top: 100px;
     background-image: url('../images/dream-bg.png');
     background-position: right;
     background-repeat: no-repeat;
 }
 
-.dream-big  h1 {
+.dream-big h1 {
     padding-bottom: 10px;
     font-weight: 700 !important;
 }
 
-.dream-big  span {
+.dream-big span {
     color: #FFA500;
 }
 
-.dream-big  h3 {
+.dream-big h3 {
     font-size: 20px;
     font-weight: bold;
     padding-top: 20px;
 }
 
-.dream-big  p {
+.dream-big p {
     color: dimgray;
     padding-top: 10px;
 }
@@ -99,14 +95,14 @@ header {
     justify-content: center;
     align-items: center !important;
 }
-.dream-big .dream-big-image  img {
+
+.dream-big .dream-big-image img {
     width: 100%;
     height: 100%;
     text-align: center;
-    
 }
 
-.dream-big  .tagline a {
+.dream-big .tagline a {
     padding: 10px 40px;
     background: linear-gradient( 45deg, lightsalmon, tomato);
     padding: 10px 40px;
@@ -115,11 +111,54 @@ header {
     font-weight: 700;
 }
 
-.dream-big  .tagline a:hover {
+.dream-big .tagline a:hover {
     color: white;
 }
 
+.experiences {
+    margin: 100px 0px;
+    background-image: url('../images/exp-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
 
+.experiences h1 {
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: black;
+}
 
+.experiences .full-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 22px 22px 29px -21px rgba(118, 118, 118, 1);
+    height: 350px;
+    padding: 40px 18px;
+}
 
+.experiences .baby-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 22px 22px 29px -21px rgba(118, 118, 118, 1);
+    height: 350px;
+    padding: 40px 18px;
+}
 
+.experiences .full-developer h1, .baby-developer h1 {
+    padding-bottom: 20px !important;
+    font-weight: bold;
+    color: black;
+}
+
+.experiences .full-developer h3, .baby-developer h3 {
+    color: #FFA500;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.experiences .full-developer p, .baby-developer p {
+    color: dimgray;
+}
